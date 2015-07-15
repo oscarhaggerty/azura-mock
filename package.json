@@ -1,0 +1,25 @@
+{
+  "name": "azura-mockhttp",
+  "version": "0.1.0",
+  "description": "Simple drop in replacement for Node's `http.ServerResponse` & `http.IncomingMessage`. Works well with koa using `app.callback()`.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "azura",
+    "mock",
+    "http"
+  ],
+  "author": "Ian Haggerty",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-watch": "^4.3.1"
+  }
+}

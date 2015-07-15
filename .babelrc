@@ -1,0 +1,10 @@
+{
+  "stage": 1,
+  "blacklist": [
+    "es6.arrowFunctions",
+    "es6.forOf"
+  ],
+  "optional": [
+    "asyncToGenerator"
+  ]
+}
